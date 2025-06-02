@@ -1,0 +1,8 @@
+torch
+mss
+numpy
+opencv-python
+keyboard
+pyautogui
+humancursor
+ultralytics
