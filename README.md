@@ -70,13 +70,13 @@ Une fois les images collectées, elles doivent être "labellisées" pour que le 
     *   Exportation des annotations : Exporter les annotations au format compatible YOLO.
 2.  **Option B: Utiliser Roboflow (Recommandé avec le dataset fourni)**
     *   Roboflow ([https://roboflow.com/](https://roboflow.com/)) permet de gérer, annoter, augmenter et exporter des datasets.
-    *   Un dataset pré-annoté pour ce projet est disponible ici : [Dofus Resource Detection Dataset on Roboflow](https://universe.roboflow.com/mathisl-qvljq/dofus-resource-detection/dataset/1)
+    *   Un dataset pré-annoté pour ce projet est disponible ici : [Dofus Resource Detection Dataset on Roboflow](https://universe.roboflow.com/mathisl-qvljq/dofus-resource-detection)
 
 ### Étape 3: Entraînement du Modèle YOLO (Transfer Learning avec Roboflow et Colab)
 Avec les données prêtes (collectées et annotées par vous-même ou via le dataset Roboflow), on peut entraîner le modèle de détection. Le notebook `Train_YOLO_Models_Dofus.ipynb` est conçu pour cela.
 
 1.  **Obtention du Dataset depuis Roboflow (Recommandé)**:
-    *   Accédez au dataset sur Roboflow : [Dofus Resource Detection Dataset](https://universe.roboflow.com/mathisl-qvljq/dofus-resource-detection/dataset/1).
+    *   Accédez au dataset sur Roboflow :  [Dofus Resource Detection Dataset on Roboflow](https://universe.roboflow.com/mathisl-qvljq/dofus-resource-detection).
     *   Dans votre projet Roboflow (ou celui fourni), après avoir sélectionné une version du dataset :
         1.  Cliquez sur "Export Dataset".
         2.  Choisissez le format **"YOLOv11"** (ou le format le plus récent compatible Ultralytics/YOLOv5+, par exemple "YOLO v8"). Ce format inclut typiquement :
